@@ -54,14 +54,46 @@
 		CB9BD91A217F96B9005DC5B4 /* AlgorithmJakeRunyan */ = {
 			isa = PBXGroup;
 			children = (
-				CB9BD91B217F96B9005DC5B4 /* AppDelegate.swift */,
-				CB9BD91D217F96B9005DC5B4 /* ViewController.swift */,
-				CB9BD91F217F96B9005DC5B4 /* Main.storyboard */,
-				CB9BD922217F96BA005DC5B4 /* Assets.xcassets */,
-				CB9BD924217F96BA005DC5B4 /* LaunchScreen.storyboard */,
-				CB9BD927217F96BA005DC5B4 /* Info.plist */,
+				CB9BD930217F974D005DC5B4 /* Model */,
+				CB9BD92D217F96F7005DC5B4 /* Resources */,
+				CB9BD92F217F9711005DC5B4 /* Controller */,
+				CB9BD92E217F9706005DC5B4 /* View */,
 			);
 			path = AlgorithmJakeRunyan;
+			sourceTree = "<group>";
+		};
+		CB9BD92D217F96F7005DC5B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB9BD91B217F96B9005DC5B4 /* AppDelegate.swift */,
+				CB9BD922217F96BA005DC5B4 /* Assets.xcassets */,
+				CB9BD927217F96BA005DC5B4 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB9BD92E217F9706005DC5B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB9BD91F217F96B9005DC5B4 /* Main.storyboard */,
+				CB9BD924217F96BA005DC5B4 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB9BD92F217F9711005DC5B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB9BD91D217F96B9005DC5B4 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB9BD930217F974D005DC5B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
