@@ -12,42 +12,29 @@
         <!--Algorithm View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="AlgorithmViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="AlgorithmViewController" customModule="AlgorithmJakeRunyan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hNH-Eq-8xs">
-                                <rect key="frame" x="67" y="270" width="241" height="127"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7w8-A0-pFW">
-                                <rect key="frame" x="67" y="102" width="241" height="20.5"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Algorithm">
-                                        <attributes>
-                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Algorithm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEt-TN-m1e">
+                                <rect key="frame" x="67" y="123" width="241" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s8Z-hQ-kXu">
+                                <rect key="frame" x="68" y="269" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="7w8-A0-pFW" firstAttribute="leading" secondItem="hNH-Eq-8xs" secondAttribute="leading" id="3EV-tD-Z9q"/>
-                            <constraint firstItem="7w8-A0-pFW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="82" id="CVf-gP-K61"/>
-                            <constraint firstItem="7w8-A0-pFW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UXE-lc-jo4"/>
-                            <constraint firstItem="7w8-A0-pFW" firstAttribute="trailing" secondItem="hNH-Eq-8xs" secondAttribute="trailing" id="XHE-nx-6fp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hNH-Eq-8xs" secondAttribute="bottom" constant="270" id="cVN-S5-oGw"/>
-                            <constraint firstItem="7w8-A0-pFW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="rNa-va-IRf"/>
-                            <constraint firstItem="hNH-Eq-8xs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="s4t-Al-UXZ"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="algorithmLabel" destination="7w8-A0-pFW" id="PaC-UT-DR7"/>
-                        <outlet property="imageView" destination="hNH-Eq-8xs" id="jsv-Hs-6wN"/>
+                        <outlet property="algorithmText" destination="tEt-TN-m1e" id="6D2-8c-ye1"/>
+                        <outlet property="swiftImage" destination="s8Z-hQ-kXu" id="hHT-U8-qGN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
