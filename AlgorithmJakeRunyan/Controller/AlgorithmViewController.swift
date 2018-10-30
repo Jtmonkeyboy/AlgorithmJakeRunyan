@@ -17,6 +17,7 @@ public class AlgorithmViewController: UIViewController
     public override func viewDidLoad() -> Void
     {
         super.viewDidLoad()
+        formatAlgorithm()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -24,16 +25,16 @@ public class AlgorithmViewController: UIViewController
     {
         let title : String = "How to make an IOS app"
         
-        let step1 : String = "First open up Xcode"
-        let step2 : String = "Click on 'Create a new Xcode project'"
-        let step3 : String = "Make sure that you have 'IOS' and 'Single View App'."
-        let step4 : String = "Click 'Next'"
-        let step5 : String = "Name your project in the product name."
-        let step6 : String = "Click 'Next'"
-        let step7 : String = "Put it where you want it."
-        let step8 : String = "Click 'Create'"
+        let stepOne : String = "First open up Xcode"
+        let stepTwo : String = "Click on 'Create a new Xcode project'"
+        let stepThree : String = "Make sure that you have 'IOS' and 'Single View App'."
+        let stepFour : String = "Click 'Next'"
+        let stepFive : String = "Name your project in the product name."
+        let stepSix : String = "Click 'Next'"
+        let stepSeven : String = "Put it where you want it."
+        let stepEight : String = "Click 'Create'"
         
-        let algorithm = [step1, step2, step3, step4, step5, step6, step7, step8]
+        let algorithm = [stepOne, stepTwo, stepThree, stepFour, stepFive, stepSix, stepSeven, stepEight]
         
         let attributesDictionary = [NSAttributedString.Key.font : algorithmText.font]
         let fullAttributedString = NSMutableAttributedString(string: title, attributes: attributesDictionary)
